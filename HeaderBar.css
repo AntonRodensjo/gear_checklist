@@ -1,0 +1,73 @@
+.headerContainer {
+    border-bottom: 2px solid hsl(0, 0%, 95%);
+    height: 8vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    padding: 1rem;
+}
+
+.listHeader {
+    text-align: center;
+}
+
+.selectDisplay {
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    max-width: fit-content;
+    margin-left: 4rem;
+}
+
+.selectDisplay select {
+    justify-self:center;
+    height: 100%;
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 550;
+    padding: 0.6rem;
+    padding-left: 0.3rem;
+    border: none;
+    border-radius: 0.6rem;
+}
+option {
+    background: white;
+}
+.selectDisplay select:hover {
+    background: hsl(0, 0%, 85%);
+}
+
+.subCategorySelect select:hover {
+    background: hsl(0, 0%, 85%);
+}
+
+.subCategoryDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subCategoryDiv > * {
+    display: flex;
+}
+
+.subCategorySelect {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 1rem;
+}
+
+.subCategorySelect select {
+    min-width: 60%;
+    font-weight: 550;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.6rem;
+    margin: 1vh;
+}
+
+.categoryHeader {
+    margin-left: 2rem;
+}

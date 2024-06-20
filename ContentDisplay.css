@@ -1,0 +1,82 @@
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.contentContainer {
+    display: flex;
+    max-height: 540px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: scroll;
+    padding: 0.5rem 2rem;
+}
+
+.listItemContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background: linear-gradient(to left, hsl(116, 100%, 55%), hsl(179, 100%, 60%));
+    padding: 0.7rem 0.2rem 0.7rem 2rem;
+    margin: 0.5rem 0;
+    border-radius: 1.2rem;
+}
+.listItem a{
+    width: 80%;
+    font-weight: 550;
+    color: hsl(271, 84%, 61%);
+    text-decoration: none;
+}
+
+.checkboxContainer {
+    width: 10%;
+    display: flex;
+    height: auto;
+    margin: auto 1rem;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkboxContainer:hover {
+    cursor: pointer;
+}
+
+.checkBox {
+    display: flex;
+    width: 100%;
+}
+
+.numberCollected {
+    display: flex;
+    font-size: 1.2rem;
+    text-align: right;
+    background-color: rgb(217, 217, 217);
+    padding: 0.6rem;
+    border-radius: 1rem;
+    align-items: center;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-right: 2rem
+}
+.numberCollected .totalItems {
+    color: hsl(0, 0%, 65%);
+    font-size: 0.9rem;
+    
+}
+
+.collectedContainer {
+    display: grid;
+    grid-template-columns: 11fr 9fr;
+}
+
+.totalText {
+    justify-self: start;
+    margin-right: 0.4rem;
+}

@@ -1,0 +1,28 @@
+[
+{"id": "Armor", 
+    "Items": {
+
+        "Headgears": ["Dandy Topper", "Navigator's Helm", "Lodestone Crown"],
+
+        "Sets": ["Academic's set", "Bandit set", "Battle set"]
+    }
+
+},
+
+{"id": "Weapons", 
+    "Items": {
+
+    "HandGuns": ["Bolt Driver", "Double Barrel", "MP60-R"],
+
+    "LongGuns": ["AS-10 Bulldog", "Blackmaw AR-47", "Chicago Typewriter", "Hello", "One More", "Even one more", "One More", "One More", "One More", "One More", "One More", "One More", "One More"],
+
+    "Melee": ["Atom Smasher", "Blade of Adventure", "Blade of Gul"]
+}},
+
+{"id": "Classes", 
+    "Items": { 
+        "Archetypes" : ["Alchemist", "Archon", "Challenger"]
+          
+}}
+]
+
